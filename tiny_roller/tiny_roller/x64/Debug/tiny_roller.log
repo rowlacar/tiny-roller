@@ -1,0 +1,3 @@
+﻿  tiny_roller.c
+D:\CS211\CS 211 Notes\tiny_roller\tiny_roller.c(2,106): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  tiny_roller.vcxproj -> D:\CS211\CS 211 Notes\tiny_roller\x64\Debug\tiny_roller.exe

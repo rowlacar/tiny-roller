@@ -1,0 +1,2 @@
+#include "definitions.h"
+l u(){l ds=0;p("roll dice!pck #\n");d{p("pck# btwn 2-200\n");s("%i",&ds);w(g()!='\n');}w(ds<2||ds>zx);r2(t(0));x rs=0;l nm[n1];f(l o=0;o<n1;o++){nm[o]=r()%ds+1;p("%i\n",nm[o]);rs+=nm[o];}p("%i\n",nm[n1-1]);p("\nsum:%lf\n",rs);x m=rs/n1;p("mean:%lf\n",m);x vs=0;f(l o=0;o<n1;o++){x v=(nm[o]-m);vs+=(v*v);}x vr=vs/n1;p("variance:%lf\n",vr);x sd=ts(vr);x se=sd/ts(n1);p("stand dev:%lf\nstand err:%lf",sd,se);}
